@@ -1,0 +1,124 @@
+@import url('https://fonts.googleleapis.com/css?family=open+sans!poppins:400,700&display=swap');
+
+.{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+}
+
+body{
+	font-family: 'open sans', sans-serif;
+	background-color: hsl(257, 40%, 49%);
+	overflow: hidden;
+}
+
+h1 p{
+	font-family: 'poppins', sans-serif;
+}
+
+.background img{
+	height: 100vh;
+	position: absolute;
+}
+
+.logo{
+	position: absolute;
+	top: 32%
+	left: 5%;
+}
+
+.illustration-mockups{
+	position: absolute;
+	top: 24%;
+    left: 5%;
+    width: 50%;
+    height: 60%;
+}
+
+.text{
+	position: absolute;
+	top: 30%;
+    right: 5%;
+    width: 32%;
+    height: auto;
+    color: #fff;
+}
+
+.text h1{
+	font-weight: 700;
+	font-size: 40px;
+	padding: 0 0 35px 0;
+}
+
+
+.text button{
+	width: 200px;
+	height: 50px;
+	border: none;
+	outline: none;
+	background-color: #fff;
+	color: hsl(257, 40%, 49%);
+	text-align: center;
+	border-radius: 50px;
+	margin-top: 35px;
+	font-size: 16px;
+}
+
+.text button:hover{
+	opacity: 0.9;
+}
+
+.social_handles{
+	position: absolute;
+    bottom: 0%;
+    right: 5%;
+}
+
+
+
+@media and screen(max-width: 800px){
+  .background img{
+	height: 100vh;
+	display: flex;
+}
+
+.text{
+	position: absolute;
+	top: 50%;
+    right: 0%;
+    left: 95%;
+    width: 32%;
+    height: auto;
+    color: #fff;
+}
+
+.text h1{
+	font-weight: 700;
+	font-size: 40px;
+	padding: 0 0 35px 0;
+}
+
+
+.text button{
+	width: 200px;
+	height: 50px;
+	border: none;
+	outline: none;
+	background-color: #fff;
+	color: hsl(257, 40%, 49%);
+	text-align: center;
+	border-radius: 50px;
+	margin-top: 35px;
+	font-size: 16px;
+}
+
+.social_handles{
+	position: absolute;
+    bottom: 3%;
+    left: 1%;
+}
+
+
+
+
